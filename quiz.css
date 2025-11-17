@@ -1,0 +1,36 @@
+body {
+background-color: Black;
+color: white;
+font-size: 40px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+div#vraag1 {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+div#vraag2 {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+div#vraag3 {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+button {
+font-size: 25px;
+}
+@media screen and (max-width: 640px) {
+body {
+font-size: 45px;
+padding-left: 15px;
+}
+button {
+margin-left: 75px;
+font-size: 45px;
+}
+}
